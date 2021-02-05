@@ -1,0 +1,41 @@
+.main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+}
+
+.titre, .paragraphe, .carte-description {
+    font-family: Sora;
+    background-color: palegreen;
+    padding: 10px;
+}
+
+.titre {
+    display: inline-block; /* permet que ça colle à l'élément à l'intérieur */
+    background-color: #ffdab9;
+    padding: 10px;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.paragraphe {
+    margin-top: 5vw;
+}
+
+.carte {
+    margin-top: 3vw;
+}
+
+.carte, .carte-image {
+     width: 35vw;
+}
+
+.carte-image {
+    display: block; /* par défaut les images sont des inline-block, et il pense qu'il y a un saut de ligne */
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
